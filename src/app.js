@@ -38,7 +38,18 @@ class Options extends React.Component {
         return (
             <div>
                 Options component here
+                <Option />
             </div>    
+        );
+    }
+}
+
+class Option extends React.Component {
+    render() {
+        return (
+            <div>
+                Option component here
+            </div>
         );
     }
 }
@@ -55,4 +66,4 @@ class AddOption extends React.Component {
 
 
 
-ReactDOM.render(<IndecisionApp ?>, document.getElementById('app'));
+ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
