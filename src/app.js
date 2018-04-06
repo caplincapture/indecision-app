@@ -45,7 +45,7 @@ class Options extends React.Component {
         this.handleRemoveAll = this.handleRemoveAll.bind(this);
     }
     handleRemoveAll() {
-        alert('handleRemoveAll');
+        console.log(this.props.options);
     }
     render() {
         return (
